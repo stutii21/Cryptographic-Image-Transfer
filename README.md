@@ -1,2 +1,3 @@
 # Cryptographic-Image-Transfer
 Image Encryption For Secure Internet Transfer
+The **Image Encryption for Secure Internet Transfer** project leverages the RSA algorithm to securely encrypt and transfer images over a network. The system converts images into binary format, encrypts them using RSA public keys, and transmits the encrypted files. Upon receipt, the intended user decrypts the image using their private key, restoring it to its original format. The project ensures data security by preventing unauthorized access, even if the encrypted file is intercepted. It is implemented in Python using libraries like Pillow for image processing and Cryptography for encryption, and supports fast encryption/decryption for images up to 10 MB.
